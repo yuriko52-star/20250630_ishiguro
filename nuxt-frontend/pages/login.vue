@@ -62,6 +62,7 @@ export default {
                 } catch (error) {
                 console.error('ログイン処理でエラー:', error)
                 alert('ログイン失敗: ' + error.message)
+                
             }
         }
     }
